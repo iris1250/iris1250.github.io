@@ -9,7 +9,15 @@ I think my local Pandas version has removed .iteritems(), so I added the compati
 
 The second visualization is an interactive scatter plot illustrating the trend of UFO sightings over time, broken down by shape and aggregated yearly. In the Python analysis notebook, I performed data transformations by grouping the filtered dataset by both the year and the reported shape, computing the total annual sightings count for each category using pandas aggregation functions. For design encodings, I assigned the year to an ordinal x-axis and the sighting count to a quantitative y-axis, while employing the category20 color scheme to map the distinct UFO shapes. To enhance exploration, I integrated an interval selection brush across the timeline axis, which dynamically adjusts the opacity of data points(the unselected points will be greyish) so that unselected years dim to a low transparency while selected time windows remain fully highlighted. This interactivity makes the visualization significantly clearer and more attractive to isolate specific historical periods and trace how individual shape reporting trends evolve over decades.
 
-### Visualizations & Links
+### Visualizations
+
+#### Top UFO Shapes (Bar Chart)
+<vegachart schema-url="/assets/json/ufo_top_shapes.json" style="width: 100%"></vegachart>
+
+#### Sighting Trends Over Time (Interactive Scatter Plot)
+<vegachart schema-url="/assets/json/ufo_yearly_trend.json" style="width: 100%"></vegachart>
+
+###  Links
 <div class="row">
   <a href="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/ufo-scrubbed-geocoded-time-standardized-00.csv" class="btn btn-primary" target="_blank">The Data</a>
   <a href="https://github.com/iris1250/iris1250.github.io/blob/main/IS445_Week10_1.ipynb" class="btn btn-secondary" target="_blank" style="margin-left: 10px;">The Analysis</a>
