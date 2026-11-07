@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 name: UFO Sightings Data Analysis
 tools: [Python, Pandas, Altair, vega-lite]
 image: assets/pngs/ufo_preview.png
