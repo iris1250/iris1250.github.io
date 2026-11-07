@@ -11,7 +11,7 @@ The second visualization is an interactive scatter plot illustrating the trend o
 
 ### Visualizations
 
-#### Top UFO Shapes (Bar Chart)
+#### Top UFO Shapes
 <vegachart schema-url="/assets/json/ufo_top_shapes.json" style="width: 100%"></vegachart>
 
 #### Sighting Trends Over Time
