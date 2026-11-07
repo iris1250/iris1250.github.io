@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Homework 5 - UFO Visualizations"
-description: "Altair visualizations analyzing UFO sighting trends (1999~)"
+description: "Altair visualizations analyzing UFO sighting trends (1990~)"
 ---
 
 ### Write-Up
