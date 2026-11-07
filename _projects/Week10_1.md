@@ -5,9 +5,9 @@ tools: [Python, Pandas, Altair, vega-lite]
 image: assets/pngs/ufo_preview.png
 description: Interactive Altair visualizations analyzing modern UFO sighting trends and shapes (1990~).
 custom_js:
-  - vega.min
-  - vega-lite.min
-  - vega-embed.min
+  - https://cdnjs.cloudflare.com/ajax/libs/vega/5.30.0/vega.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/vega-lite/5.20.1/vega-lite.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/vega-embed/6.27.0/vega-embed.min.js
   - justcharts
 ---
 
